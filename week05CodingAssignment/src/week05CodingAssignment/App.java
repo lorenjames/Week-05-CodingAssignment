@@ -8,11 +8,18 @@ public class App {
 		// TODO Auto-generated method stub
 
 		Logger logger = new AsteriskLogger();
+		System.out.println("AsteriskLogger Log: ");
 		logger.log("Test Asterisk Log");
-		logger.error("TEST ASTERISK");
+		System.out.println();
+		System.out.println("AsteriskLogger Error: ");
+		logger.error("TEST ASTERISK ERROR");
 		
 		Logger logger2 = new SpacedLogger();
+		System.out.println();
+		System.out.println("SpacedLogger Log: ");
 		logger2.log("Test Spaced Log");
+		System.out.println();
+		System.out.println("SpacedLogger Error: ");
 		logger2.error("TEST SPACED ERROR");
 
 		
